@@ -1,11 +1,11 @@
 <div align="center">
 
-# 📝 Mes notes
+# Mes notes
 
 **Les tâches du jour, les listes, les courses et les carnets, dans une seule app faite sur mesure.**
 Sans compte, sans serveur, installable sur le téléphone, et qui marche même hors ligne.
 
-### 👉 [**Essayer l'app : boldnote.vercel.app**](https://boldnote.vercel.app/) 👈
+### [**Essayer l'app : boldnote.vercel.app**](https://boldnote.vercel.app/)
 
 ![React](https://img.shields.io/badge/React_19-20232A?logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -28,26 +28,26 @@ Sans compte, sans serveur, installable sur le téléphone, et qui marche même h
 
 ---
 
-## ✨ Ce que fait l'app
+## Ce que fait l'app
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>⭐ Today</h3>
+      <h3>Today</h3>
       Le matin, on pioche des tâches dans ses listes et on les envoie dans Today. Le soir, ce qui n'est pas coché <b>retourne tout seul dans sa liste d'origine</b>, le reste est archivé. Chaque jour a sa couleur et sa phrase.
     </td>
     <td width="50%" valign="top">
-      <h3>📋 Listes</h3>
+      <h3>Listes</h3>
       Autant de listes de tâches qu'on veut, chacune avec sa couleur. Une tâche cochée reste barrée jusqu'à minuit (la satisfaction !), puis elle est archivée.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛒 Courses</h3>
+      <h3>Courses</h3>
       Les articles sont rangés <b>par rayon</b>, et les rayons se gèrent librement. Un article coché passe dans « Déjà acheté » ; <i>Terminer les courses</i> les archive en gardant la date.
     </td>
     <td width="50%" valign="top">
-      <h3>📖 Carnets</h3>
+      <h3>Carnets</h3>
       Recettes, films, restos, lieux à visiter… Chaque carnet a <b>ses propres badges</b> (« À tester », « Adoré », « Vu »…), une source (livre, site, lieu) et un commentaire.
     </td>
   </tr>
@@ -63,7 +63,7 @@ Sans compte, sans serveur, installable sur le téléphone, et qui marche même h
 
 <p align="center"><img src="docs/screenshots/07-ordinateur.jpg" width="640" alt="Version ordinateur"><br><sub>Sur ordinateur, la navigation passe dans une barre latérale.</sub></p>
 
-## 🧠 Choix de conception
+## Choix de conception
 
 | Le défi | La solution |
 |---|---|
@@ -74,7 +74,7 @@ Sans compte, sans serveur, installable sur le téléphone, et qui marche même h
 | **Un design cohérent** | Maquettes d'abord, puis palette, typographie et ombres devenues des variables Tailwind partagées. Vrais boutons, étiquettes ARIA, focus visible au clavier. |
 | **Marcher partout, même sans réseau** | Service worker (≈ 500 Ko en cache) et polices embarquées : aucune requête externe, l'app s'ouvre en mode avion. |
 
-## 🛠️ Technique
+## Technique
 
 | | |
 |---|---|
@@ -87,7 +87,7 @@ Sans compte, sans serveur, installable sur le téléphone, et qui marche même h
 | Hébergement | Vercel |
 | Qualité | ESLint, TypeScript |
 
-## 🧭 Limites connues et suite
+## Limites connues et suite
 
 - [x] Tâches, Today avec fin de journée, courses par rayon, carnets avec badges
 - [x] Installable (PWA), hors ligne, en ligne sur Vercel
@@ -101,8 +101,8 @@ Sans compte, sans serveur, installable sur le téléphone, et qui marche même h
 > [!NOTE]
 > **Barre du haut sur iPhone.** Depuis iOS 26.1, les apps installées affichent un voile système au-dessus de la page. C'est un [bogue d'iOS](https://bugs.webkit.org/show_bug.cgi?id=301994) qui touche toutes les PWA ; ça ne gêne pas l'usage.
 
-## 🧰 Outils
+## Outils
 
-Maquettes réalisées avec Claude Design. Code écrit avec l'aide de Claude Code, un assistant de programmation d'Anthropic.
+Maquettes réalisées avec Claude Design. Code écrit avec l'aide de Claude Code
 
-<div align="center"><sub>Projet personnel · École 42 · © 2026 Tous droits réservés</sub></div>
+<div align="center"><sub>Projet personnel · Charlotte Pasquier · © 2026 Tous droits réservés</sub></div>
