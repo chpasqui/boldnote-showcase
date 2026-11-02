@@ -1,6 +1,6 @@
 <div align="center">
 
-# Mes notes
+# BoldNote - mon app de notes
 
 **Les tâches du jour, les listes, les courses et les carnets, dans une seule app faite sur mesure.**
 Sans compte, sans serveur, installable sur le téléphone, et qui marche même hors ligne.
